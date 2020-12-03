@@ -1,0 +1,16 @@
+-- 菜单SQL
+INSERT INTO `sys_menu` (`parent_id`, `name`, `url`, `perms`, `type`, `icon`, `order_num`, `gmt_create`)
+    VALUES ('1', '${comments}', '${moduleName}/${pathName}', '${moduleName}:${pathName}:${pathName}', '1', 'fa fa-file-code-o', '0', NOW());
+
+-- 按钮父菜单ID
+set @parentId = @@identity;
+
+-- 按钮 SQL
+INSERT INTO `sys_menu` (`parent_id`, `name`, `url`, `perms`, `type`, `icon`, `order_num`, `gmt_create`)
+    SELECT @parentId, '增加', null, '${moduleName}:${pathName}:add', '2', null, '0', NOW();
+INSERT INTO `sys_menu` (`parent_id`, `name`, `url`, `perms`, `type`, `icon`, `order_num`, `gmt_create`)
+    SELECT @parentId, '编辑', null, '${moduleName}:${pathName}:edit', '2', null, '0', NOW();
+INSERT INTO `sys_menu` (`parent_id`, `name`, `url`, `perms`, `type`, `icon`, `order_num`, `gmt_create`)
+    SELECT @parentId, '删除', null, '${moduleName}:${pathName}:remove', '2', null, '0', NOW();
+INSERT INTO `sys_menu` (`parent_id`, `name`, `url`, `perms`, `type`, `icon`, `order_num`, `gmt_create`)
+    SELECT @parentId, '批量删除', null, '${moduleName}:${pathName}:batchRemove', '2', null, '0', NOW();

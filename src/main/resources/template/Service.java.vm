@@ -1,0 +1,24 @@
+package ${package}.service;
+
+import ${package}.dao.*;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+/**
+ * ${comments} - 业务层
+ * @BelongsPackage: ${package}.service
+ * @Author: ${author}
+ * @CreateTime:  ${datetime}
+ * @Description: *
+ */
+@Service
+@Slf4j
+public class ${className}Service  {
+
+    @Autowired
+    private ${className}Dao ${classname}Dao;
+
+
+}

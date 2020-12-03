@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../material/material-base/src/main/java/com/wamei/base/modules/stock/order/service/BaseOrderProcessRelationServiceImpl.java" description="public void delete(long orderId) throws Exception{" line="22" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="07d8f41e-10a8-4082-9b9d-52dd43e3120f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-common/src/main/java/com.zcong.master.common/constant/HystrixConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-common/src/main/java/com.zcong.master.common/core/BaseWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-common/src/main/java/com.zcong.master.common/util/PublicUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-common/src/main/java/com.zcong.master.common/util/collection/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-common/src/main/java/com.zcong.master.common/util/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-common/src/main/java/com.zcong.master.common/util/string/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-eureka-server/src/main/java/com/zcong/master/provider/eureka/MasterEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-gateway/src/main/java/com/zcong/master/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-gateway/src/main/java/com/zcong/master/gateway/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider-api/master-provider-buck-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider-api/master-provider-buck-api/src/main/java/com/zcong/master/provider/service/AssetsFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider-api/master-provider-buck-api/src/main/java/com/zcong/master/provider/service/hystrix/AssetsFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider-api/master-provider-buck-api/src/main/java/com/zcong/master/provider/service/model/dto/AssetsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider-api/master-provider-uac-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider-api/master-provider-uac-api/src/main/java/com/zcong/master/provider/service/UserFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider-api/master-provider-uac-api/src/main/java/com/zcong/master/provider/service/hystrix/UserFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/src/main/java/com/zcong/master/provider/MasterBuckApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/src/main/java/com/zcong/master/provider/mapper/AssetsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/src/main/java/com/zcong/master/provider/model/domain/AssetsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/src/main/java/com/zcong/master/provider/service/AssetsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/src/main/java/com/zcong/master/provider/service/AssetsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/src/main/java/com/zcong/master/provider/web/AssetsWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-buck/src/main/resources/mapper/AssetsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/java/com/zcong/master/provider/MasterUacApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/java/com/zcong/master/provider/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/java/com/zcong/master/provider/model/domain/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/java/com/zcong/master/provider/service/AssetsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/java/com/zcong/master/provider/service/AssetsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/java/com/zcong/master/provider/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/java/com/zcong/master/provider/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/java/com/zcong/master/provider/web/UserWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/master-provider-uac/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../master/master-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_seata_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_seata_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_csp_sentinel_web_servlet_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_druid_1_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_druid_1_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_fastjson_1_2_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_github_openfeign_feign_core_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_github_openfeign_feign_okhttp_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__io_seata_seata_all_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_crazycake_shiro_redis_3_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_owasp_encoder_encoder_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_postgresql_postgresql_42_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/libraries/Maven__redis_clients_jedis_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/doc/seata/reference/reference.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/doc/seata/sql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/pod-admin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/src/main/java/com/rd/pod/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/src/main/java/com/rd/pod/framework/shiro/ShiroSessionIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/src/main/java/com/rd/pod/framework/shiro/ShiroUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/src/main/java/com/rd/pod/framework/shiro/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/src/main/java/com/rd/pod/framework/shiro/filter/AccessAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/src/main/java/com/rd/pod/framework/shiro/realm/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/src/main/java/com/rd/pod/framework/shiro/session/CustomSessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/pod-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/Test1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/common/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/common/config/WebServerMvcConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/common/exception/ServiceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/common/frame/interceptor/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/module/test/mapper/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/module/test/model/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/module/test/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/module/test/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/module/test/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/module/test/service/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/java/com/rd/pod/module/test/web/foreend/BookWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/pod-test2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/Test2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/common/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/common/config/WebServerMvcConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/common/exception/ServiceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/common/frame/interceptor/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/module/test/mapper/NameDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/module/test/model/entity/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/module/test/service/NameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/module/test/service/impl/NameServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/java/com/rd/pod/module/test/web/rpc/BookFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pod-test2/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pod-servier-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pod-test-api/pod-test-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pod-test-api/pod-test2-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pod-test-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pod-test-api/src/main/java/com/rd/pod/module/test/BookFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pod-test-api/src/main/java/com/rd/pod/module/test/fuse/BookFeiFuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pod-test-api/src/main/java/com/rd/pod/module/test/model/vo/BookVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pod-test-api/src/main/resources/application-sentinel.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pod-servier-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/auth-client/auth-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/auth-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/auth-client/src/main/java/com/rd/pod/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/auth-client/src/main/java/com/rd/pod/auth/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/auth-client/src/main/java/com/rd/pod/jwt/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/auth-client/src/main/java/com/rd/pod/jwt/service/impl/JwtServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/auth-client/src/main/java/com/rd/pod/sign/service/SignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/auth-client/src/main/java/com/rd/pod/sign/service/impl/SignServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/pod-auth.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/constant/HeaderParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/constant/PrefixConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/encrypt/AESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/encrypt/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/encrypt/Secret.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/encrypt/VerifiedUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/exception/CypherException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/result/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/result/RCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/result/RCodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/result/RHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/base/src/main/java/com/rd/pod/result/RMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/common/UserContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/exception/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/feign/FeignOkHttpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/feign/FeignRequestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/feign/interceptor/OkHttpLogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/jwt/ClientJwtNature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/jwt/JwtConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/jwt/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/jwt/ServiceJwtNature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/redis/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/java/com/rd/pod/spring/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/resources/application-jwt.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/core/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/pod-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/utils/src/main/java/com/rd/pod/collection/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/utils/src/main/java/com/rd/pod/collection/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/utils/src/main/java/com/rd/pod/encrypt/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/utils/src/main/java/com/rd/pod/encrypt/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/utils/src/main/java/com/rd/pod/string/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-common/utils/utils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-dto/pod-dto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-dto/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/pod-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/java/com/rd/pod/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/java/com/rd/pod/common/exception/GatewayExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/java/com/rd/pod/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/java/com/rd/pod/filter/AccessGatewayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/java/com/rd/pod/service/GatewayIgnoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/java/com/rd/pod/service/impl/GatewayIgnoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/resources/application-auth.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-generator/pod-generator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-parent/pod-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pod/pod.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spray/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/分值模块.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/后台用户权限.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/后台管理.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/广告模块.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/推荐管理.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/用户模块.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/视频模块.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/资讯模块.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/频道文章模块.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/首页管理.pdm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/AdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/aspect/SysLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/constant/PermissionConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/constant/ShiroConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/constant/SystemUserConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/AdminExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/DemoModeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/base/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/job/TaskException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/system/RRImageException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/CaptchaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/RoleBlockedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/UserBlockedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/UserDeleteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/UserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/UserNotExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/UserPasswordNotMatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/UserPasswordRetryLimitCountException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/exception/user/UserPasswordRetryLimitExceedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/redis/index/BroadcastRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/redis/index/QuotationRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/redis/news/FlashRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/result/index/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/result/news/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/result/topic/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/result/video/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/util/MessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/common/util/ShiroUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/config/CrosConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/config/I18nConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/datasource/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/timer/index/QuotationTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/timer/news/NewsFlashTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/web/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/web/domain/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/web/page/PageDataInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/web/page/PageParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/framework/web/page/PageSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/common/imagesett/dao/ImageSettDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/common/imagesett/domain/ImageSettEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/controller/BroadcastColumnController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/controller/BroadcastController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/dao/BroadcastColumnDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/dao/BroadcastColumnRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/dao/BroadcastDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/domain/BroadcastColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/domain/BroadcastColumnRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/domain/BroadcastEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/service/BroadcastColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/service/BroadcastColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/service/BroadcastService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/service/BroadcastServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/broadcast/vo/BroadcastParamsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/carousel/controller/CarouselController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/carousel/dao/CarouselDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/carousel/domain/CarouselEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/carousel/param/CarouselSyncParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/carousel/service/CarouselService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/carousel/service/CarouselServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/headline/controller/HeadlineNewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/headline/dao/HeadlineNewsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/headline/domain/HeadlineNewsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/headline/service/HeadlineNewsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/headline/service/HeadlineNewsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/quotation/controller/QuotationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/quotation/dao/QuotationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/quotation/domain/QuotationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/quotation/service/QuotationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/index/quotation/service/QuotationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/controller/ArticleTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/dao/ArticleCheckDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/dao/ArticleCheckLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/dao/ArticleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/dao/ArticleDetailsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/dao/ArticleInteractionNumDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/dao/ArticleOnlineDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/dao/ArticleTypeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/dao/ArticleTypeRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/domain/ArticleCheckEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/domain/ArticleCheckLogEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/domain/ArticleDetailsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/domain/ArticleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/domain/ArticleInteractionNumEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/domain/ArticleOnlineEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/domain/ArticleTypeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/domain/ArticleTypeRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/param/ArticleParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/service/ArtcileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/service/ArticleCheckService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/service/ArticleCheckServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/service/ArticleTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/article/service/ArticleTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/controller/ChannelChildController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/controller/ChannelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/dao/ChannelChildDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/dao/ChannelDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/domain/ChannelChildEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/domain/ChannelEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/service/ChannelChildService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/service/ChannelChildServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/service/ChannelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/channel/service/ChannelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/controller/NewsFlashColumnController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/controller/NewsFlashController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/dao/NewsFlashColumnDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/dao/NewsFlashColumnRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/dao/NewsFlashDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/dao/NewsFlashUserRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/domain/NewsFlashColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/domain/NewsFlashColumnRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/domain/NewsFlashEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/domain/NewsFlashUserRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/service/NewsFlashColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/service/NewsFlashColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/service/NewsFlashService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/service/NewsFlashServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/news/flash/vo/NewsFlashParamsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/config/controller/SystemConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/config/dao/SystemConfigDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/config/domain/SystemConfigEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/config/service/SystemConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/config/service/SystemConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/menu/domain/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/role/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/role/domain/RoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/supplier/controller/UeditorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/supplier/controller/UploadPictureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/ActionEnter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/ConfigManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/Encoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/PathFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/UEditorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/define/ActionMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/define/ActionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/define/AppInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/define/BaseState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/define/FileType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/define/MIMEType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/define/MultiState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/define/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/hunter/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/hunter/ImageHunter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/upload/Base64Uploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/upload/BinaryUploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/upload/StorageManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/ueditor/upload/Uploader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/controller/SysUserContentPermissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/dao/SysUserContentPermissionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/domain/SysContentPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/domain/SysUserContentPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/domain/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/domain/UserStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/service/SysUserContentPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/system/user/service/SysUserContentPermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/controller/DiscussColumnController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/controller/DiscussController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/dao/CommentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/dao/CommentUserPraiseRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/dao/CommentUserRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/dao/DiscussColumnDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/dao/DiscussColumnRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/dao/DiscussDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/dao/DiscussResourceRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/domain/CommentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/domain/CommentUserPraiseRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/domain/CommentUserRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/domain/DiscussColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/domain/DiscussColumnRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/domain/DiscussEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/domain/DiscussResourceRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/service/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/service/DiscussColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/service/DiscussColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/service/DiscussService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/service/DiscussServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/vo/CommentParamsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/topic/discuss/vo/DiscussParamsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/users/users/controller/UserBasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/users/users/dao/UserBasicDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/users/users/dao/UserVerificationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/users/users/domain/UserBasicEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/users/users/domain/UserVerificationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/users/users/service/UserBasicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/users/users/service/UserBasicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/controller/VideoProgramConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/dao/VideoProgramConfigurationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/dao/VideoProgramDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/domain/VideoProgramConfigurationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/domain/VideoProgramEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/service/VideoProgramConfigurationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/service/VideoProgramConfigurationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/service/VideoProgramService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/program/service/VideoProgramServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/controller/VideoBasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/dao/VideoBasicDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/dao/VideoScoreDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/domain/VideoBasicEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/domain/VideoScoreEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/service/VideoBasicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/service/VideoBasicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/service/VideoScoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/service/VideoScoreServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/java/com/timefinance/admin/modules/video/video/vo/VideoParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/ehcache/ehcache-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/common/imagesett/ImageSettDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/index/broadcast/BroadcastColumnDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/index/broadcast/BroadcastColumnRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/index/broadcast/BroadcastDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/index/carousel/CarouselDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/index/headline/HeadlineNewsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/index/quotation/QuotationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/article/ArticleCheckDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/article/ArticleCheckLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/article/ArticleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/article/ArticleDetailsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/article/ArticleInteractionNumDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/article/ArticleOnlineDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/article/ArticleTypeDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/article/ArticleTypeRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/channel/ChannelChildDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/channel/ChannelDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/flash/NewsFlashColumnDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/flash/NewsFlashColumnRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/flash/NewsFlashDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/news/flash/NewsFlashUserRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/system/config/SystemConfigDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/system/user/SysUserContentPermissionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/topic/discuss/CommentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/topic/discuss/CommentUserPraiseRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/topic/discuss/CommentUserRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/topic/discuss/DiscussColumnDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/topic/discuss/DiscussColumnRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/topic/discuss/DiscussDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/topic/discuss/DiscussResoureRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/users/users/UserBasicDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/users/users/UserVerificationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/video/program/VideoProgramConfigurationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/video/video/VideoBasicDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/video/video/VideoProgramDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/mybatis/video/video/VideoScoreDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/static/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/main/resources/static/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-admin/src/test/java/com/timefinance/admin/modules/common/imagesett/dao/ImageSettDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/AppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/bean/InfoFlowBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/bean/InteractionBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/exception/AppExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/exception/base/RRBaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/exception/current/RRNotRecordedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/index/BroadscastRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/index/QuotationRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/news/FlashRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/score/CheckinRecordRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/score/IntegralConfigRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/system/SystemConfigRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/users/SendMessagesRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/users/UserBasicRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/redis/users/UserLoginVerificationRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/result/index/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/result/news/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/result/topic/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/result/video/Msg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/util/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/common/util/sensitive/SensitiveCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/annotation/H5Encrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/annotation/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/annotation/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/annotation/NotEncrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/annotation/NotLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/datasource/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/interceptor/AuthorizationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/interceptor/EncryptionVerificationH5Interceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/interceptor/EncryptionVerificationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/interceptor/NotAuthorizationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/framework/resolver/LoginUserHandlerMethodArgumentResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/advertise/info/dao/AdvertiseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/advertise/info/domain/AdvertiseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/advertise/info/domain/AdvertiseImagesEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/advertise/info/service/AdvertiseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/advertise/info/service/AdvertiseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/advertise/info/vo/AdvertiseVoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/common/imagesett/dao/ImageSettDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/common/imagesett/domain/ImageSettEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/h5/index/BroadcastH5Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/h5/news/ArticleH5Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/h5/news/NewsFlashH5Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/h5/topic/DiscussH5Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/controller/BroadcastColumnController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/controller/BroadcastController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/dao/BroadcastColumnDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/dao/BroadcastColumnRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/dao/BroadcastDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/domain/BroadcastColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/domain/BroadcastColumnRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/domain/BroadcastEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/service/BroadcastColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/service/BroadcastColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/service/BroadcastService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/service/BroadcastServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/vo/BroadcastColumnVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/broadcast/vo/BroadcastVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/carousel/dao/CarouselDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/carousel/domain/CarouselEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/carousel/service/CarouselService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/carousel/service/CarouselServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/carousel/vo/CarouselListVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/column/controller/ColumnController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/column/dao/ColumnDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/column/domain/ColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/column/service/ColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/column/service/ColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/column/vo/ColumnVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/headline/dao/HeadlineNewsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/headline/domain/HeadlineNewsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/headline/service/HeadlineNewsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/headline/service/HeadlineNewsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/quotation/controller/QuotationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/quotation/dao/QuotationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/quotation/domain/QuotationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/quotation/service/QuotationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/quotation/service/QuotationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/quotation/vo/QuotationVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/show/controller/IndexShowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/show/service/IndexShowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/show/service/IndexShowServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/show/vo/ModuleContentVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/startpage/dao/StartPageDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/startpage/domain/StartPageEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/startpage/service/StartPageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/startpage/service/StartPageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/index/startpage/vo/StartPageVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/dao/ArticleCollectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/dao/ArticleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/dao/ArticleInteractionNumDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/domain/ArticleCollectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/domain/ArticleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/domain/ArticleInteractionNumEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/service/ArticleInteractionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/service/ArticleInteractionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/service/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/vo/ArticleCollectVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/vo/ArticleDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/article/vo/ArticleListVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/controller/ChannelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/dao/ChannelChildDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/dao/ChannelDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/domain/ChannelChildEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/domain/ChannelEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/service/ChannelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/service/ChannelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/vo/ChannelChildListVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/channel/vo/ChannelVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/controller/NewsFlashColumnController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/controller/NewsFlashController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/dao/NewsFlashColumnDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/dao/NewsFlashColumnRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/dao/NewsFlashDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/dao/NewsFlashUserRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/domain/NewsFlashColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/domain/NewsFlashColumnRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/domain/NewsFlashEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/domain/NewsFlashUserRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/service/NewsFlashColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/service/NewsFlashColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/service/NewsFlashService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/service/NewsFlashServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/vo/NewsFlashColumnVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/news/flash/vo/NewsFlashVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/score/integral/dao/IntegralConfigDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/score/integral/domain/IntegralConfigEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/score/integral/service/IntegralConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/score/integral/service/IntegralConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/test/demo/controller/DemoExceptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/test/demo/controller/DemoTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/test/demo/dao/DemoTestDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/test/demo/domain/DemoTestEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/test/demo/service/DemoTestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/test/demo/service/DemoTestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/test/demo/vo/DemoTestVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/controller/DiscussController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/dao/CommentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/dao/CommentUserPraiseRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/dao/CommentUserRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/dao/DiscussColumnDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/dao/DiscussColumnRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/dao/DiscussDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/dao/DiscussResourceRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/domain/CommentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/domain/CommentUserPraiseRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/domain/CommentUserRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/domain/DiscussColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/domain/DiscussColumnRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/domain/DiscussEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/domain/DiscussResourceRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/service/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/service/DiscussColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/service/DiscussColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/service/DiscussService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/service/DiscussServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/vo/CommentVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/topic/discuss/vo/DiscussVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/controller/ConfigurationFileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/controller/SystemUniqueIdentifierController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/domain/ObtainConfigEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/domain/RSAEncryptionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/domain/SystemDeviceCodeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/service/ConfigurationFileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/service/ConfigurationFileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/service/RSAEncryptionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/service/RSAEncryptionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/service/SystemUniqueIdentifierService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/service/SystemUniqueIdentifierServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/config/vo/ObtainConfigVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/login/controller/SendMessagesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/login/domain/VerificationCodeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/login/service/SendMessagesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/login/service/SendMessagesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/controller/UserBasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/controller/UserScoreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/controller/UserVerificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/dao/RIntegraRecordDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/dao/RUserIntegraDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/dao/UserBasicDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/dao/UserCheckinRecordDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/dao/UserVerificationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/domain/RCheckinRecordEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/domain/RIntegraRecordEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/domain/RUserIntegraEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/domain/UserBasicEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/domain/UserBasicRedisEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/domain/UserLoginJWDEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/domain/UserVerificationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/RIntegraRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/RIntegraRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/RUserIntegraService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/RUserIntegraServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/UserBasicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/UserBasicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/UserScoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/UserScoreServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/UserVerificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/service/UserVerificationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/vo/UserActiveCarouselVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/vo/UserBasicDetailsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/vo/UserBasicInVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/vo/UserBasicVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/vo/UserIntegraRecordVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/users/users/vo/UsersRegisteredVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/controller/VideoScoreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/dao/VideoCollectionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/dao/VideoLikeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/dao/VideoPlayDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/dao/VideoScoreDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/domain/VideoCollectionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/domain/VideoLikeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/domain/VideoPlayEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/domain/VideoScoreEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/service/VideoScoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/score/service/VideoScoreServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/controller/VideoBasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/controller/VideoProgramController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/dao/VideoBasicDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/dao/VideoProgramConfigurationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/dao/VideoSynopsisDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/domain/VideoBasicEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/domain/VideoProgramConfigurationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/domain/VideoSynopsisEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/service/VideoBasicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/service/VideoBasicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/service/VideoProgramConfigurationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/service/VideoProgramConfigurationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/service/VideoProgramService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/service/VideoProgramServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/service/VideoSynopsisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/service/VideoSynopsisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/vo/VideoBasicDetailsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/vo/VideoBasicVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/vo/VideoCollectionRecordVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/vo/VideoIndexVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/vo/VideoProgramConfigVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/java/com/timefinance/app/modules/video/video/vo/VideoProgramIntroduVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/advertise/info/AdvertiseDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/imagesett/ImageSettDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/index/broadcast/BroadcastColumnDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/index/broadcast/BroadcastColumnRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/index/broadcast/BroadcastDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/index/carousel/CarouselDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/index/column/ColumnDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/index/headline/HeadlineNewsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/index/quotation/QuotationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/index/startpage/StartPageDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/article/ArticleCollectDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/article/ArticleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/article/ArticleInteractionNumDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/channel/ChannelChildDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/channel/ChannelDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/flash/NewsFlashColumnDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/flash/NewsFlashColumnRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/flash/NewsFlashDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/news/flash/NewsFlashUserRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/test/DemoTestDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/topic/discuss/CommentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/topic/discuss/CommentUserPraiseRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/topic/discuss/CommentUserRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/topic/discuss/DiscussColumnDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/topic/discuss/DiscussColumnRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/topic/discuss/DiscussDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/topic/discuss/DiscussResoureRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/users/UserBasicDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/users/UserCheckinRecordDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/users/UserVerificationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/users/score/IntegralConfigDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/users/score/RIntegraRecordDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/users/score/RUserIntegraDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/video/VideoBasicDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/video/VideoProgramConfigurationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/video/VideoScoreDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/video/VideoSynopsisDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/video/score/VideoCollectionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/video/score/VideoLikeDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-app/src/main/resources/mybatis/video/score/VideoPlayDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-cache/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/config/TimefinanceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/constant/NewsConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/constant/TimefinanceConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/dysms/SmsKeyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/dysms/SmsSendEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/dysms/SmsUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/encryption/AESUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/encryption/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/encryption/ConversionProcessingUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/encryption/InterfaceEncryptionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/encryption/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/encryption/RSATest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/encryption/RSAUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/encryption/StringToHex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/advertise/AdvertiseEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/common/ImageSettEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/common/SourceTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/index/CarouselEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/index/IndexColumnEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/index/InfoFlowTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/news/ArticleEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/news/BroadcastEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/news/ChannelEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/news/NewsFlashEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/news/QuotationEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/sprovider/ServiceProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/enums/system/SysContentPeremsEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/exception/RRIdTurnRecordedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/exception/RRMsgException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/exception/RRServiceProviderException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/oss/AliyunCloudStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/oss/CloudStorageConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/oss/CloudStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/oss/OSSFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/page/PageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/page/Tablepar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/redis/RedisAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/redis/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/redis/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/redis/key/RedisGlobalStorageKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/redis/key/RedisIndexKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/redis/key/RedisIntegralKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/redis/key/RedisNewsKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/CollectionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/ConvertUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/IpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/KeychainGenerationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/RegexUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/RegularExpressionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/ServletUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/StaticPathUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/UUIDUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/ValidatorParamsUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/bean/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/http/HttpClientHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/http/HttpContextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/http/IPUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/json/JSONFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/qrcode/QRTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/qrcode/QrCodeCreateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/result/CodeMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/result/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/util/spring/SpringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timefinance-common/src/main/java/com/timefinance/common/validator/group/AliyunGroup.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/template/Entity.java.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/template/ServiceImpl.java.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1078">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zcong/service/SysGeneratorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#692#693#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zcong/GeneratorApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/template/Dao.xml.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generator.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/views/generator.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/views/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>package</find>
+      <find>controller</find>
+      <find>The last packet sent successfully to the server was 0 milliseconds ago</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\Project\back-generator\src\main\resources</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/template/Dao.xml.vm" />
+        <option value="$PROJECT_DIR$/src/main/resources/generator.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/template/Service.java.vm" />
+        <option value="$PROJECT_DIR$/src/main/resources/template/Dao.java.vm" />
+        <option value="$PROJECT_DIR$/src/main/resources/template/Controller.java.vm" />
+        <option value="$PROJECT_DIR$/src/main/resources/template/Entity.java.vm" />
+        <option value="$PROJECT_DIR$/src/main/resources/template/ServiceImpl.java.vm" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="trade-back-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="trade-back-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2" />
+    <option name="y" value="36" />
+    <option name="width" value="1826" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trade-back-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-back-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-back-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-back-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-back-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zcong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-back-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-back-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../timefinance" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="trade-back-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zcong.GeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07d8f41e-10a8-4082-9b9d-52dd43e3120f" name="Default Changelist" comment="" />
+      <created>1562289455083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562289455083</updated>
+      <workItem from="1562289457653" duration="112000" />
+      <workItem from="1562292825710" duration="30000" />
+      <workItem from="1563258876860" duration="605000" />
+      <workItem from="1563761667232" duration="12000" />
+      <workItem from="1564455936195" duration="711000" />
+      <workItem from="1564565341164" duration="632000" />
+      <workItem from="1569221023865" duration="653000" />
+      <workItem from="1571120272538" duration="1326000" />
+      <workItem from="1571197583777" duration="1282000" />
+      <workItem from="1571459614881" duration="2437000" />
+      <workItem from="1572403356250" duration="2789000" />
+      <workItem from="1572857600038" duration="622000" />
+      <workItem from="1573457685056" duration="627000" />
+      <workItem from="1575511049620" duration="690000" />
+      <workItem from="1575861951370" duration="610000" />
+      <workItem from="1583825748763" duration="1638000" />
+      <workItem from="1585130185235" duration="4794000" />
+      <workItem from="1585189392362" duration="325000" />
+      <workItem from="1585190425620" duration="21000" />
+      <workItem from="1585190467048" duration="11000" />
+      <workItem from="1585208762360" duration="1793000" />
+      <workItem from="1585216196824" duration="1201000" />
+      <workItem from="1585798657560" duration="1894000" />
+      <workItem from="1585825141571" duration="2170000" />
+      <workItem from="1586231717266" duration="620000" />
+      <workItem from="1587034508336" duration="845000" />
+      <workItem from="1587436741255" duration="602000" />
+      <workItem from="1587439524096" duration="25000" />
+      <workItem from="1588211516202" duration="238000" />
+      <workItem from="1589869995897" duration="219000" />
+      <workItem from="1591934011353" duration="696000" />
+      <workItem from="1592275639282" duration="1639000" />
+      <workItem from="1602485491920" duration="5313000" />
+      <workItem from="1602574787475" duration="610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37792000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2" y="36" width="1826" height="1047" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22480181" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6484118" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.23560767" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/generator (2)/main/java/com/zcong/website/entity/ActivityReserveEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/edit.js.vm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar!/com/mysql/jdbc/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcong/dao/SysGeneratorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcong/entity/ColumnEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcong/entity/TableEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/Dao.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/Service.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/Controller.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/Entity.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/ServiceImpl.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcong/service/SysGeneratorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcong/GeneratorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/template/Dao.xml.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/generator.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

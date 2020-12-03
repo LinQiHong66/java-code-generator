@@ -1,0 +1,16 @@
+package ${package}.dao;
+
+import ${package}.entity.*;
+import tk.mybatis.mapper.common.Mapper;
+
+/**
+ *${comments} - Dao层
+ * @BelongsPackage: ${package}.dao
+ * @Author: ${author}
+ * @CreateTime:  ${datetime}
+ * @Description: *
+ */
+@org.apache.ibatis.annotations.Mapper
+public interface ${className}Dao extends Mapper<${className}Entity>{
+
+}

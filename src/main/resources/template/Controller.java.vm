@@ -1,0 +1,25 @@
+package ${package}.controller;
+
+import ${package}.service.*;
+
+
+import io.swagger.annotations.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+/**
+ * ${comments} - 控制层
+ * @BelongsPackage: ${package}.controller
+ * @Author: ${author}
+ * @CreateTime:  ${datetime}
+ * @Description: *
+ */
+@Api(value = "${classname}", tags = {"${comments}"})
+@RestController
+@RequestMapping("/${classname}/")
+public class ${className}Controller {
+
+    @Autowired
+    private ${className}Service ${classname}Service;
+
+}
