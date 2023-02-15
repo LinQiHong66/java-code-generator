@@ -1,6 +1,6 @@
 package ${package}.service;
 
-import ${package}.dao.*;
+import ${package}.mapper.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
 public class ${className}Service  {
 
     @Autowired
-    private ${className}Dao ${classname}Dao;
+    private ${className}Mapper ${classname}Mapper;
 
 
 }

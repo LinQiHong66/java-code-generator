@@ -11,6 +11,6 @@ import tk.mybatis.mapper.common.Mapper;
  * @Description: *
  */
 @org.apache.ibatis.annotations.Mapper
-public interface ${className}Dao extends Mapper<${className}Entity>{
+public interface ${className}Mapper extends Mapper<${className}>{
 
 }
